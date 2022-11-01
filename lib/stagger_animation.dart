@@ -41,7 +41,7 @@ class _StaggerDemoState extends State<StaggerDemo>
         parent: controller,
         curve: Interval(
           0.250,
-          0.375,
+          0.350,
           curve: Curves.ease,
         ),
       ),
@@ -53,7 +53,7 @@ class _StaggerDemoState extends State<StaggerDemo>
       CurvedAnimation(
         parent: controller,
         curve: Interval(
-          0.250,
+          0.350,
           0.500,
           curve: Curves.ease,
         ),
@@ -61,7 +61,7 @@ class _StaggerDemoState extends State<StaggerDemo>
     );
     borderRadius = BorderRadiusTween(
       begin: BorderRadius.circular(4.0),
-      end: BorderRadius.circular(75.0),
+      end: BorderRadius.circular(24.0),
     ).animate(
       CurvedAnimation(
         parent: controller,
@@ -74,7 +74,7 @@ class _StaggerDemoState extends State<StaggerDemo>
     );
     color = ColorTween(
       begin: Colors.red,
-      end: Colors.pink,
+      end: Colors.yellow,
     ).animate(
       CurvedAnimation(
         parent: controller,

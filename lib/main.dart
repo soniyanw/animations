@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rive_animation/stagger_animation.dart';
+import 'package:rive_animation/stagger.dart';
 
 void main() {
-  runApp(MaterialApp(home: StaggerDemo()));
+  runApp(MaterialApp(home: Stagger_Grid()));
 }
