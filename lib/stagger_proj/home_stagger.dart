@@ -117,7 +117,7 @@ class _HomeStaggerState extends State<HomeStagger>
             child: Pin(
               listenable: pin,
             ),
-          ), //  Positioned(top: rectangle.value, child: Icon(Icons.person))
+          ),
         ],
       ),
       floatingActionButton: Container(
